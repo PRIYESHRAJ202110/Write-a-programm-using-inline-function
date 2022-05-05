@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+//calculating area of rectangle using inline function
+inline int area(int a,int b)
+{
+    int area=a*b;
+    return area;
+}
+
+int main()
+{
+    //declaring variable 
+    int a,b;
+    cout<<"Enter any number "<<endl;
+    cin>>a>>b;
+    int ans=area(a,b);
+    cout<<ans<<endl;
+}
