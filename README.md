@@ -1,0 +1,1 @@
+# Write-a-programm-using-inline-function
